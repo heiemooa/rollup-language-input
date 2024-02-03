@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "jsx": "react",
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "ESNext",
+    "declaration": true,
+    "sourceMap": true,
+    "removeComments": true,
+    "lib": ["es6", "DOM"],
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "docs/*/*.md"]
+}

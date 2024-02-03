@@ -1,0 +1,48 @@
+{
+  "name": "rollup-language-input",
+  "version": "0.0.1",
+  "author": "heiemooa <243973775@qq.com>",
+  "keywords": [
+    "lazy",
+    "image",
+    "react",
+    "ts"
+  ],
+  "license": "ISC",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "types": "./esm/index.d.ts",
+  "directories": {
+    "lib": "esm",
+    "test": "__tests__"
+  },
+  "files": [
+    "esm",
+    "cjs"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.33",
+    "rollup": "^4.9.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "dayjs": "^1.11.10",
+    "react": "^18.2.0",
+    "tslib": "^2.6.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "a6fef5874f08579e99a7361c60b58288c323c2d7"
+}
